@@ -30,7 +30,7 @@ function App() {
     }, 1500)
 
     try {
-      const response = await axios.post('http://localhost:3000/ai/get-review', { code })
+      const response = await axios.post(`${import.meta.env.BACKEND_LINK}/ai/get-review`, { code })
       setReview(response.data) // Show actual review
     } catch (error) {
       setReview("❌ Error fetching review. Please try again.") // Handle errors
