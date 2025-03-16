@@ -1,7 +1,7 @@
 # SmartCode AI - AI-Powered Code Reviewer
 
 ## 📌 Website
-Visit the live version of SmartCode AI: [SmartCode AI](https://smart-code-ai.vercel.app/)
+Visit the live version of SmartCode AI: [SmartCode AI](https://smartcode-ai.vercel.app/)
 
 ## 🚀 Introduction
 **SmartCode AI** is an advanced AI-powered code reviewer designed to analyze, review, and provide feedback on source code. Built using **React.js, Node.js, and the Gemini AI API**, SmartCode AI helps developers improve their code quality, detect errors, and follow best practices efficiently.
