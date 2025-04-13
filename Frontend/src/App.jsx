@@ -53,14 +53,15 @@ function App() {
                 fontFamily: '"Fira code", "Fira Mono", monospace',
                 fontSize: 16,
                 border: "1px solid #ddd",
-                borderRadius: "5px",
-                height: "100%",
-                width: "100%"
+                borderRadius: "14px",
+                width: "100%",
+                minHeight: "100%",
+                overflow: "auto"
               }}
             />
           </div>
           <div onClick={reviewCode} className="review">
-            {loading ? "⏳ Reviewing..." : "Review"}
+              {loading ? "⏳ Reviewing..." : "Review"}
           </div>
         </div>
 
